@@ -11,6 +11,8 @@ n = data.size
 duree = 1.0*n/rate
 			
 
+te = 1.0/rate
+#ta
 t = np.zeros(n)
 for k in range(n):
     t[k] = te*k
